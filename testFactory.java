@@ -6,7 +6,7 @@ public class testFactory
 		PizzaStore testOrderPiz;
 		pFactory = new PizzaFactory();
 		testOrderPiz = new PizzaStore(pFactory);
-		testOrderPiz.orderPizza("Tomyam"); //อยากเปลี่ยนหน้าพิซซ่า เปลี่ยนตรงนี้
+		testOrderPiz.orderPizza(args[0]); //อยากเปลี่ยนหน้าพิซซ่า เปลี่ยนตรงนี้
 		//pFactory.orderPizza("Tomyam");
 	}
 }
