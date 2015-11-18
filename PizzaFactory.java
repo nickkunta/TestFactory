@@ -1,15 +1,14 @@
 public class PizzaFactory{
-	public Pizza createPizza(String pizType){
-		Pizza p;
+	public static Pizza createPizza(String pizType){
+	
 		if(pizType.equals("Pepperoni")){
-			p = new PepperoniPizza();
+			return = new PepperoniPizza();
 		}else if (pizType.equals("Margherita")){
-			p = new MargheritaPizza();
+			return = new MargheritaPizza();
 		}else if (pizType.equals("Tomyam")){
-			p = new TomyamPizza();
+			return = new TomyamPizza();
 		}else{
 			return null;
 		}
-		return p;
 	}
 }
