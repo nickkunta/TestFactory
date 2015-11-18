@@ -4,8 +4,8 @@ public class testFactory
 	public static void main(String[] args)
 	{
 		PizzaStore testOrderPiz;
-		pFactory = new PizzaFactory();
-		testOrderPiz = new PizzaStore(pFactory);
+		//pFactory = new PizzaFactory();
+		testOrderPiz = new PizzaStore();
 		testOrderPiz.orderPizza(args[0]); //อยากเปลี่ยนหน้าพิซซ่า เปลี่ยนตรงนี้
 	}
 }
